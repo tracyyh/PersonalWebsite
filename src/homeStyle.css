@@ -1,0 +1,26 @@
+.logo-tab{
+    margin-left: 10px;
+    max-width: 50%;
+    max-height: auto;
+}
+.page{
+    text-align: end;
+}
+
+.header{
+    display: flex;
+}
+.welcome{
+    padding: 25px 0;
+}
+.welcomeText{
+    float: right;
+    margin-right: 20%;
+    padding: 70px 0;
+}
+.pfp{
+    float: left;
+    margin-left: 20%;
+    max-width: 25%;
+    max-height: auto;
+}
