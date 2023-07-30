@@ -44,9 +44,9 @@
 
 @font-face {
     font-family: 'LexendGiga';
-    src: url('Lexend_Giga/static/LexendGiga-Regular.ttf');
+    src: url(Lexend_Giga/static/LexendGiga-Regular.ttf);
 }
-div, div:visited{
+href, h2, h3{
     font-family: 'LexendGiga';
     color:black;
 }
