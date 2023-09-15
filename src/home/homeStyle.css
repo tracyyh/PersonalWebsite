@@ -30,7 +30,7 @@
     font-family: 'lexend';
     src: url(../Lexend_Giga/static/LexendGiga-Regular.ttf);
 }
-href, h2, h3{
+p, href, h2, h3{
     font-family: 'lexend';
     color:black;
 }
