@@ -8,7 +8,12 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        mclaren: ["McLaren"],
+      },
       colors: {
+        "beige": "#FAF7EE",
+        "green": "#6D7968",
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
