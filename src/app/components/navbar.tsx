@@ -5,9 +5,6 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState, useEffect } from "react";
 
-const currentUrl = window.location.href;
-console.log(currentUrl);
-
 const Line = () => {
   return <hr className="border-green border" />;
 };
@@ -31,7 +28,7 @@ export default function NavBar() {
   console.log(currPage);
 
   return (
-    <div className="flex flex-row bg-beige font-mclaren text-green justify-between text-2xl px-20 py-6">
+    <div className="flex flex-row bg-beige font-kefir font-medium text-green justify-between text-3xl px-20 py-6">
       <Link href="/" className="pr-32">
         <Image src="/logo.svg" alt="logo" width={100} height={100} />
       </Link>
@@ -51,7 +48,7 @@ export default function NavBar() {
       </ul>
       <Link
         href="/resumes"
-        className="items-center border border-green rounded-full my-5 px-16 flex"
+        className="items-center border border-green rounded-full my-5 px-16 flex font-kefir font-medium"
       >
         resume
       </Link>

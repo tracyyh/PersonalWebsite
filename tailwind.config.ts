@@ -9,11 +9,14 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        mclaren: ["McLaren"],
+        mono: ["Sometype Mono", "monospace"],
+        kefir: ["Kefir", "sans-serif"],
+        gaegu: ["Gaegu", "cursive"],
       },
       colors: {
-        "beige": "#FAF7EE",
-        "green": "#6D7968",
+        beige: "#EDE6DC",
+        green: "#495541",
+        pink: "#773A25",
         background: "var(--background)",
         foreground: "var(--foreground)",
       },

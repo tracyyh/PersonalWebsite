@@ -1,4 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=McLaren&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sometype+Mono&family=Gaegu&display=swap");
+
+@font-face {
+  font-family: "Kefir";
+  font-weight: 500;
+  font-display: swap;
+  src: local("Kefir Medium"), local("Kefir-Medium"),
+    url("/fonts/Kefir-Medium.woff2") format("woff2");
+}
 
 @tailwind base;
 @tailwind components;
@@ -16,7 +24,8 @@
   }
 }
 body {
+  zoom: 0.75;
   @apply bg-background text-foreground;
-  font-family: "McLaren", sans-serif;
+  font-family: "Sometype Mono", monospace;
   font-feature-settings: "rlig" 1, "calt" 1;
 }
