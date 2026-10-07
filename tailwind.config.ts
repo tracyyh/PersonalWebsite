@@ -10,7 +10,7 @@ export default {
     extend: {
       fontFamily: {
         mono: ["Sometype Mono", "monospace"],
-        kefir: ["Kefir", "sans-serif"],
+        kefir: ["var(--font-kefir)", "sans-serif"],
         gaegu: ["Gaegu", "cursive"],
       },
       colors: {

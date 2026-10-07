@@ -1,13 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Sometype+Mono&family=Gaegu&display=swap");
 
-@font-face {
-  font-family: "Kefir";
-  font-weight: 500;
-  font-display: swap;
-  src: local("Kefir Medium"), local("Kefir-Medium"),
-    url("/fonts/Kefir-Medium.woff2") format("woff2");
-}
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
